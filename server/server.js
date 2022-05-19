@@ -12,9 +12,15 @@ const port = process.env.Port || 3000;
 app.listen(port, () => {
     console.log(`Server listening on port: ${port}`);
 });
-console.log('where am i')
+console.log('You can do it!!')
 
-//Testing code
+
+
+
+
+
+//Testing code // This has been moved to utils/password.js
+
 // import * as bcrypt from 'bcrypt'; //on server side it is recommended to do async development
 // //generateHash('password123'); don't want to store the password in the database it needs to be hashed
 // function generateHash(password){
